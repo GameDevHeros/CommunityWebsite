@@ -17,3 +17,26 @@ padding: 13.5rem 0.5rem;
     display: flex;
     flex-direction: column;
 }
+
+.member-block{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 2rem 10px;
+  }
+  .member-block .box img {
+      height: 15rem;
+      width: auto;
+
+  }
+  .member-block div span{
+      margin-top: 1rem;
+      display: block;
+      text-align: center;
+      font-size: 18px; 
+  }
+  .member-block .box .topic{
+    color: #1b1b1a;
+    font-weight: 500;
+  }
