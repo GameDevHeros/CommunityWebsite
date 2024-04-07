@@ -55,6 +55,7 @@ nav.sticky .navbar .logo a{
 nav .navbar .menu{
   display: flex;
   position: relative;
+  gap: 2rem;
 }
 nav .navbar .menu li{
   list-style: none;
@@ -76,9 +77,16 @@ nav.sticky .menu a{
 nav.sticky .menu a:hover{
   color: #0E2431;
 }
+
+.navbar .media-icons{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .navbar .media-icons a{
   color: #4070f4;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
@@ -109,13 +117,14 @@ nav.sticky .menu-btn{
 
 /* home section styling */
 .home{
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
+  width: 90%;
   background: url("Images\Game Dev-2.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+  margin: auto;
 }
 .home .home-content{
   width: 90%;
@@ -415,6 +424,17 @@ footer .text span a:hover{
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
+}
+
+.hero-wrapper{
+  display: flex;
+  align-items: center;
+  background: red;
+}
+
+.hero-wrapper > img{
+  width: 250px;
+  height: 50px;
 }
 
 /* Responsive Media Query */

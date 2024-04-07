@@ -1,0 +1,19 @@
+.main-content{
+display: flex;
+max-width: 90%;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+height: 100%;
+padding: 13.5rem 0.5rem;
+}
+
+.main-content > img{
+    width: 500px;
+    height: 500px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
